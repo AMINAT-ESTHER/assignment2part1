@@ -12,5 +12,11 @@ public class CustomerSavingsInterest {
         double interestRate = 0.055;
 
         System.out.println("   DEMONSTRATING CONVERSION AND ACCURACY");
+
+        double calculatedInterest = customerDeposits * interestRate;
+        double totalBalance = customerDeposits + calculatedInterest;
+
+        int roundedInterest = (int)(calculatedInterest + 0.5);
+        int roundedTotal = (int)(totalBalance + 0.5);
     }
 }
