@@ -28,6 +28,9 @@ public class CustomerSavingsInterest {
         System.out.println("Interest rate applied =" + (interestRate * 100) +"%");
         System.out.println("Rounded interest =" + roundedInterest);
         System.out.println("Rounded total =" + roundedTotal);
-        
+
+        System.out.println("    ACCURACY CHECK");
+        double lostPrecision = calculatedInterest - roundedInterest;
+        System.out.println("  precision lost during explicit conversion =" + lostPrecision);
     }
 }
