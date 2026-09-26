@@ -33,4 +33,8 @@ public class CustomerSavingsInterest {
         double lostPrecision = calculatedInterest - roundedInterest;
         System.out.println("  precision lost during explicit conversion =" + lostPrecision);
     }
+
+    public static void main(String[] args) {
+        SavingsInterestCalculator()
+    }
 }
