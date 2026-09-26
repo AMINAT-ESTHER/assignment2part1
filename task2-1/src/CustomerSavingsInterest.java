@@ -8,5 +8,9 @@ public class CustomerSavingsInterest {
 
         System.out.println("enter the customer deposits");
         int customerDeposits = ami.nextInt();
+
+        double interestRate = 0.055;
+
+        System.out.println("   DEMONSTRATING CONVERSION AND ACCURACY");
     }
 }
